@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | NovaMark</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="underline font-semibold">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="portfolio.html" class="hover:underline">Portfolio</a>
+        <a href="testimonials.html" class="hover:underline">Testimonials</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <main class="pt-32 px-6 max-w-6xl mx-auto space-y-20">
+    
+    <section data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4">Who We Are</h2>
+      <p class="text-lg text-gray-300 leading-relaxed">
+        NovaMark is a digital-first marketing agency helping fitness coaches, gyms, and personal brands grow their online presence.
+        We specialize in SEO, content strategy, and high-converting campaigns that drive traffic and sales.
+      </p>
+    </section>
+
+    <section class="grid md:grid-cols-2 gap-10" data-aos="fade-up" data-aos-delay="100">
+      <div class="bg-white text-[#0b1e3c] p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <h3 class="text-2xl font-bold mb-2">Our Mission</h3>
+        <p>
+          Empower brands to grow smarter by blending strategy, creativity, and performance. We're not just marketers — we're partners.
+        </p>
+      </div>
+      <div class="bg-white text-[#0b1e3c] p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+        <h3 class="text-2xl font-bold mb-2">Our Vision</h3>
+        <p>
+          To be the go-to digital agency for fitness-focused brands who want to scale sustainably, with purpose and profit in mind.
+        </p>
+      </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-4xl font-bold mb-6 text-center">Meet the Team</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl hover:scale-105 transition shadow-md">
+          <img src="https://via.placeholder.com/120" class="mx-auto mb-4 rounded-full" alt="Team Member">
+          <h4 class="text-xl font-semibold">Alex Roy</h4>
+          <p class="text-sm">Founder & SEO Strategist</p>
+        </div>
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl hover:scale-105 transition shadow-md">
+          <img src="https://via.placeholder.com/120" class="mx-auto mb-4 rounded-full" alt="Team Member">
+          <h4 class="text-xl font-semibold">Jordan Blake</h4>
+          <p class="text-sm">Creative Director</p>
+        </div>
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl hover:scale-105 transition shadow-md">
+          <img src="https://via.placeholder.com/120" class="mx-auto mb-4 rounded-full" alt="Team Member">
+          <h4 class="text-xl font-semibold">Casey Lynn</h4>
+          <p class="text-sm">Social Ads Manager</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

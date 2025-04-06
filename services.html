@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | NovaMark</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="underline font-semibold">Services</a>
+        <a href="portfolio.html" class="hover:underline">Portfolio</a>
+        <a href="testimonials.html" class="hover:underline">Testimonials</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <main class="pt-32 px-6 max-w-6xl mx-auto">
+    <section data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4 text-center">What We Offer</h2>
+      <p class="text-lg text-gray-300 text-center mb-12">
+        Our digital marketing services are designed to elevate your brand and deliver results.
+      </p>
+      <div class="grid md:grid-cols-3 gap-10">
+        <!-- Service 1 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="100">
+          <h3 class="text-xl font-bold mb-2">SEO Optimization</h3>
+          <p>We make sure your site ranks where it matters — on the first page of Google.</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="200">
+          <h3 class="text-xl font-bold mb-2">Content Marketing</h3>
+          <p>Engaging, strategic content that builds trust and drives action.</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="300">
+          <h3 class="text-xl font-bold mb-2">Paid Ads Management</h3>
+          <p>Facebook, Google, Instagram — we run ads that actually convert.</p>
+        </div>
+        <!-- Service 4 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="400">
+          <h3 class="text-xl font-bold mb-2">Email Campaigns</h3>
+          <p>From welcome sequences to retention flows, we write emails that get opened.</p>
+        </div>
+        <!-- Service 5 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="500">
+          <h3 class="text-xl font-bold mb-2">Brand Identity</h3>
+          <p>Crafting logos, voice, tone, and style that reflect your unique brand essence.</p>
+        </div>
+        <!-- Service 6 -->
+        <div class="bg-white text-[#0b1e3c] p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition" data-aos="zoom-in" data-aos-delay="600">
+          <h3 class="text-xl font-bold mb-2">Social Media Strategy</h3>
+          <p>We create engaging content calendars that build community & grow reach.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | NovaMark</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+    input, textarea {
+      background-color: #f8f9fa;
+      color: #0b1e3c;
+    }
+    input::placeholder, textarea::placeholder {
+      color: #666;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="portfolio.html" class="hover:underline">Portfolio</a>
+        <a href="testimonials.html" class="hover:underline">Testimonials</a>
+        <a href="contact.html" class="underline font-semibold">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <main class="pt-32 px-6 max-w-4xl mx-auto">
+    <section data-aos="fade-down">
+      <h2 class="text-4xl font-bold mb-4 text-center">Let's Work Together</h2>
+      <p class="text-lg text-gray-300 text-center mb-12">Ready to boost your fitness business? Drop us a message.</p>
+    </section>
+
+    <!-- Contact Form -->
+    <form action="#" method="POST" class="bg-white text-[#0b1e3c] rounded-lg p-8 shadow-lg space-y-6" data-aos="fade-up" data-aos-delay="100">
+      <div>
+        <label class="block font-semibold mb-1">Name</label>
+        <input type="text" name="name" placeholder="Your full name" class="w-full p-3 rounded" required />
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Email</label>
+        <input type="email" name="email" placeholder="you@example.com" class="w-full p-3 rounded" required />
+      </div>
+      <div>
+        <label class="block font-semibold mb-1">Message</label>
+        <textarea name="message" placeholder="Tell us about your goals..." rows="5" class="w-full p-3 rounded" required></textarea>
+      </div>
+      <button type="submit" class="bg-[#0b1e3c] text-white px-6 py-3 rounded-full hover:bg-white hover:text-[#0b1e3c] transition font-semibold">
+        Send Message
+      </button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="mt-16 space-y-4 text-center text-gray-300" data-aos="fade-up" data-aos-delay="200">
+      <p><strong>Email:</strong> contact@novamark.io</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Location:</strong> Kerala, India</p>
+      <div class="flex justify-center space-x-6 mt-4">
+        <a href="#" class="hover:text-white transition"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS Init -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

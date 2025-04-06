@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials | NovaMark</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+
+    .quote-icon {
+      font-size: 4rem;
+      color: #1c3c72;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="portfolio.html" class="hover:underline">Portfolio</a>
+        <a href="testimonials.html" class="underline font-semibold">Testimonials</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Testimonials -->
+  <main class="pt-32 px-6 max-w-5xl mx-auto">
+    <section data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4 text-center">What Our Clients Say</h2>
+      <p class="text-lg text-gray-300 text-center mb-12">Real feedback from business owners we've helped grow.</p>
+    </section>
+
+    <div class="space-y-12">
+      <!-- Testimonial 1 -->
+      <div class="bg-white text-[#0b1e3c] rounded-lg p-8 shadow-lg" data-aos="fade-right">
+        <i class="fas fa-quote-left quote-icon mb-4"></i>
+        <p class="text-lg italic">“NovaMark completely changed the way I market my business. The copy was powerful, and my engagement doubled in a month.”</p>
+        <p class="mt-4 font-semibold">— Jamie R., Gym Owner</p>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white text-[#0b1e3c] rounded-lg p-8 shadow-lg" data-aos="fade-left">
+        <i class="fas fa-quote-left quote-icon mb-4"></i>
+        <p class="text-lg italic">“As a fitness coach, I needed help with branding. NovaMark nailed the voice of my business and created a stunning landing page.”</p>
+        <p class="mt-4 font-semibold">— Rohan S., Online Coach</p>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-white text-[#0b1e3c] rounded-lg p-8 shadow-lg" data-aos="fade-right">
+        <i class="fas fa-quote-left quote-icon mb-4"></i>
+        <p class="text-lg italic">“Their email campaigns drove real results. Best investment I’ve made in my marketing journey.”</p>
+        <p class="mt-4 font-semibold">— Lara K., Wellness Brand Founder</p>
+      </div>
+    </div>
+
+    <!-- Trusted by section -->
+    <section class="mt-20" data-aos="fade-up">
+      <h3 class="text-2xl font-bold text-center mb-6">Trusted By</h3>
+      <div class="flex justify-center items-center gap-8 flex-wrap">
+        <img src="https://via.placeholder.com/120x50?text=GymPro" alt="GymPro Logo" class="opacity-70 hover:opacity-100 transition">
+        <img src="https://via.placeholder.com/120x50?text=FitNation" alt="FitNation Logo" class="opacity-70 hover:opacity-100 transition">
+        <img src="https://via.placeholder.com/120x50?text=HealthHub" alt="HealthHub Logo" class="opacity-70 hover:opacity-100 transition">
+        <img src="https://via.placeholder.com/120x50?text=ZenBody" alt="ZenBody Logo" class="opacity-70 hover:opacity-100 transition">
+      </div>
+    </section>
+  </main>
+
+  <!-- Font Awesome for quote icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS Init -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

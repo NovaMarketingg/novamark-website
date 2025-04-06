@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaMark | Digital Marketing That Performs</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="portfolio.html" class="hover:underline">Portfolio</a>
+        <a href="testimonials.html" class="hover:underline">Testimonials</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center px-6 text-center pt-32">
+    <div data-aos="fade-up">
+      <h2 class="text-5xl font-bold leading-tight mb-4 text-white">Grow Your Business with Expert Marketing</h2>
+      <p class="text-lg mb-8 text-gray-300">Targeted campaigns, SEO, and lead generation — all in one place.</p>
+      <a href="services.html" class="bg-white text-[#0b1e3c] py-3 px-6 rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
+        See Our Services
+      </a>
+    </div>
+
+    <div class="flex space-x-12 mt-16" data-aos="fade-up" data-aos-delay="200">
+      <div class="text-center">
+        <h3 class="text-3xl font-bold">+500</h3>
+        <p class="text-gray-300">Campaigns Launched</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-3xl font-bold">+120%</h3>
+        <p class="text-gray-300">Avg Client Growth</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-3xl font-bold">24/7</h3>
+        <p class="text-gray-300">Support & Strategy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-white text-[#0b1e3c] py-16 px-6" data-aos="fade-up" data-aos-delay="300">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+      <div class="p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
+        <h4 class="text-xl font-bold mb-2">SEO & Organic Growth</h4>
+        <p>Rank higher on Google and get found by your dream clients.</p>
+      </div>
+      <div class="p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
+        <h4 class="text-xl font-bold mb-2">Social Media Strategy</h4>
+        <p>We craft high-converting content and manage your socials like pros.</p>
+      </div>
+      <div class="p-6 rounded-xl shadow-lg hover:scale-105 transition transform duration-300">
+        <h4 class="text-xl font-bold mb-2">Ad Campaigns</h4>
+        <p>Targeted ads that convert and maximize ROI.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

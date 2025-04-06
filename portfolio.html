@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | NovaMark</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #0b1e3c;
+    }
+
+    .project-card img {
+      transition: transform 0.4s ease;
+    }
+
+    .project-card:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-[#0b1e3c] shadow-md z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">NovaMark</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about.html" class="hover:underline">About Us</a>
+        <a href="services.html" class="hover:underline">Services</a>
+        <a href="portfolio.html" class="underline font-semibold">Portfolio</a>
+        <a href="testimonials.html" class="hover:underline">Testimonials</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+        <a href="contact.html" class="border border-white py-1 px-4 rounded-full hover:bg-white hover:text-[#0b1e3c] transition">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Section -->
+  <main class="pt-32 px-6 max-w-6xl mx-auto">
+    <section data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4 text-center">Our Work</h2>
+      <p class="text-lg text-gray-300 text-center mb-12">
+        Take a look at the brands we’ve transformed through strategy, content, and design.
+      </p>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-10" data-aos="fade-up" data-aos-delay="100">
+      <!-- Project 1 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 1" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Fitness Coach Branding</h3>
+          <p class="text-sm">Complete rebranding and website redesign for a personal trainer in NYC.</p>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 2" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Social Ad Campaign</h3>
+          <p class="text-sm">High-converting Instagram and Facebook ads for a supplement brand.</p>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 3" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Landing Page Optimization</h3>
+          <p class="text-sm">Improved conversions by 64% for a local gym’s membership funnel.</p>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 4" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Email Marketing</h3>
+          <p class="text-sm">Automated flows for a sportswear brand, increasing ROI by 42%.</p>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 5" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">YouTube Content Funnel</h3>
+          <p class="text-sm">Built a full sales funnel for a fitness influencer’s video series.</p>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="project-card bg-white text-[#0b1e3c] rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition">
+        <img src="https://via.placeholder.com/600x400" alt="Project 6" />
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Ecommerce Product Launch</h3>
+          <p class="text-sm">Helped launch a new line of wellness products with content & ads.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
